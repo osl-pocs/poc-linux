@@ -9,7 +9,7 @@ export TARGET_DIR=/opt/miniforge3
 export FILENAME=Miniforge3-$(uname)-$(uname -m).sh
 
 sudo mkdir -p "${TARGET_DIR}"
-sudo chown xmn:xmn "${TARGET_DIR}"
+sudo chown devops:devops "${TARGET_DIR}"
 
 rm -f ${FILENAME}
 wget -c "https://github.com/conda-forge/miniforge/releases/latest/download/${FILENAME}"
